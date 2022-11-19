@@ -1,0 +1,97 @@
+.dsmeta-card {
+    background-color: #283142;
+    border-radius: 10px;
+    padding: 30px 10px;
+}
+
+.dsmeta-salesTitle {
+    color: #676FFF;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.dsmeta-formControlContainer {
+    margin-bottom: 16px;
+    max-width: 300px;
+}
+
+.dsmeta-formControl {
+    width: 100%;
+    height: 46px;
+    background-color: #1B2531;
+    border: 1px solid #384459;
+    border-radius: 5px;
+    color: #9AAABE;
+    padding: 0 20px;
+    font-size: 18px;
+}
+
+.dsmeta-salesTable {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.dsmeta-salesTable thead {
+    height: 55px;
+    font-weight: 700px;
+    font-size: 16px;
+    color: #E9E9E9;
+}
+
+.dsmeta-salesTable tbody {
+    font-weight: 400;
+    font-size: 14px;
+    color: #CFCFCF;
+    text-align: center;
+}
+
+.dsmeta-salesTable tr {
+    height: 74px;
+    border-top: 1px solid #5F6E82;
+}
+
+.dsmeta-salesTable tbody tr:hover>td {
+    background-color: #384459;
+}
+
+.dsmeta-salesTable tbody tr:nth-child(odd) {
+    background-color: #242C3B;
+}
+
+.dsmeta-redBtnContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.dsmeta-show576 {
+    display: none;
+}
+
+@media(min-width: 576px) {
+    .dsmeta-show576 {
+        display: table-cell;
+    }
+
+    .dsmeta-card {
+        padding: 35px;
+    }
+
+    .dsmeta-salesTable tr {
+        height: 55px;
+    }
+
+    .dsmeta-salesTable tbody {
+        font-size: 18px;
+    }
+}
+
+.dsmeta-show992 {
+    display: none;
+}
+
+@media(min-width: 992px) {
+    .dsmeta-show992 {
+        display: table-cell;
+    }
+}
