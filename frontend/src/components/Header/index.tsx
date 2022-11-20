@@ -3,16 +3,18 @@ import './style.css';
 
 function Header() {
     return (
+        <>
         <header>
             <div className="dsmeta-logoContainer">
                 <img src={logo} alt="DSMeta" />
                 <h1>DSMeta</h1>
                 <p>
                     Desenvolvido por
-                    <a href="https://github.com/kleitonjr">github.com/kleitonjr</a>
+                    <a href="https://www.instagram.com/kleitonreal/?next=%2F" target="_blank"> @kleitonreal</a>
                 </p>
             </div>
         </header>
+        </>
     )
 }
 
